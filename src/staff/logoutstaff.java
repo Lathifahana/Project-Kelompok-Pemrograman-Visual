@@ -9,6 +9,7 @@ package staff;
  *
  * @author hp
  */
+
 public class logoutstaff {
     
 }

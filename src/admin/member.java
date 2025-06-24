@@ -17,6 +17,7 @@ import net.sf.jasperreports.view.JasperViewer;
  *
  * @author hp
  */
+
 public class member extends javax.swing.JFrame {
 private Connection conn = new koneksi().connect();
     private DefaultTableModel tabmode;

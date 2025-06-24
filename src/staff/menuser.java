@@ -16,6 +16,7 @@ public class menuser extends javax.swing.JFrame {
     /**
      * Creates new form menuser
      */
+    
     public menuser() {
         initComponents();
        String KD = UserID.getUserLogin();

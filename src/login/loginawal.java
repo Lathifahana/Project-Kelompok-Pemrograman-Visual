@@ -11,6 +11,7 @@ import Koneksi.koneksi;
  *
  * @author hp
  */
+
 public class loginawal extends javax.swing.JFrame {
 private Connection conn = new koneksi().connect();
     /**

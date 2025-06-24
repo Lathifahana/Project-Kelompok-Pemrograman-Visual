@@ -91,7 +91,6 @@ private Connection conn = new koneksi().connect();
         txtcaribukustaff = new javax.swing.JTextField();
         bcari = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
-        bcetak = new javax.swing.JButton();
         bkembali = new javax.swing.JButton();
         bpinjam = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
@@ -99,7 +98,7 @@ private Connection conn = new koneksi().connect();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Data Buku", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 12))); // NOI18N
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Data Buku"));
 
         tblbukustaff.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -138,17 +137,6 @@ private Connection conn = new koneksi().connect();
 
         jLabel9.setFont(new java.awt.Font("Verdana", 0, 12)); // NOI18N
         jLabel9.setText("Kata Kunci :");
-
-        bcetak.setBackground(new java.awt.Color(0, 204, 153));
-        bcetak.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
-        bcetak.setForeground(new java.awt.Color(0, 0, 0));
-        bcetak.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/printer.png"))); // NOI18N
-        bcetak.setText("PRINT");
-        bcetak.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bcetakActionPerformed(evt);
-            }
-        });
 
         bkembali.setBackground(new java.awt.Color(255, 153, 51));
         bkembali.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
@@ -191,9 +179,7 @@ private Connection conn = new koneksi().connect();
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(bpinjam)
                         .addGap(18, 18, 18)
-                        .addComponent(bkembali)
-                        .addGap(18, 18, 18)
-                        .addComponent(bcetak)))
+                        .addComponent(bkembali)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -208,7 +194,6 @@ private Connection conn = new koneksi().connect();
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(bcetak)
                     .addComponent(bkembali)
                     .addComponent(bpinjam))
                 .addGap(32, 32, 32))
@@ -252,7 +237,7 @@ private Connection conn = new koneksi().connect();
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -264,10 +249,6 @@ private Connection conn = new koneksi().connect();
         new dashboardstaff().setVisible(true); 
         this.dispose();
     }//GEN-LAST:event_bkembaliActionPerformed
-
-    private void bcetakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bcetakActionPerformed
-        cetak();
-    }//GEN-LAST:event_bcetakActionPerformed
 
     private void bpinjamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bpinjamActionPerformed
          // Cek apakah baris sudah diklik
@@ -349,7 +330,6 @@ private Connection conn = new koneksi().connect();
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton bcari;
-    private javax.swing.JButton bcetak;
     private javax.swing.JButton bkembali;
     private javax.swing.JButton bpinjam;
     private javax.swing.JLabel jLabel6;

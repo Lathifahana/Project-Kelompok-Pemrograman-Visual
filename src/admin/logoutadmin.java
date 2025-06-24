@@ -9,6 +9,7 @@ package admin;
  *
  * @author hp
  */
+
 public class logoutadmin {
     
 }

@@ -35,7 +35,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel3" min="-2" pref="79" max="-2" attributes="0"/>
-              <EmptySpace pref="19" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -72,8 +72,6 @@
                           <Component id="bpinjam" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="bkembali" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="bcetak" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
@@ -93,7 +91,6 @@
                   <Component id="jScrollPane1" min="-2" pref="171" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="bcetak" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="bkembali" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="bpinjam" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
@@ -159,26 +156,6 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Kata Kunci :"/>
           </Properties>
-        </Component>
-        <Component class="javax.swing.JButton" name="bcetak">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="cc" red="0" type="rgb"/>
-            </Property>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Dialog" size="11" style="1"/>
-            </Property>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/printer.png"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="PRINT"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bcetakActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="bkembali">
           <Properties>

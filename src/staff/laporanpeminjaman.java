@@ -17,6 +17,7 @@ import java.util.HashMap;
  *
  * @author hp
  */
+
 public class laporanpeminjaman extends javax.swing.JFrame {
 private Connection conn = new koneksi().connect();
     private DefaultTableModel tabmode;

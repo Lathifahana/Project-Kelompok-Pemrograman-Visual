@@ -8,8 +8,6 @@ import login.loginawal;
 import login.UserID;
 import java.awt.Point;
 
-
-
 /**
  *
  * @author hp

@@ -13,6 +13,7 @@ import net.sf.jasperreports.view.JasperViewer;
  *
  * @author hp
  */
+
 public class formdenda extends javax.swing.JFrame {
 public String kdbuku, idkembali, idmbr, status, terlambat;
     private Connection conn = new koneksi().connect();
@@ -517,9 +518,8 @@ public void cetak() {
                             .addComponent(txtterlambat, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(27, 27, 27)))
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(bkembali)
-                        .addComponent(bcetak))
+                    .addComponent(bkembali)
+                    .addComponent(bcetak)
                     .addComponent(bhapus))
                 .addGap(33, 33, 33))
         );

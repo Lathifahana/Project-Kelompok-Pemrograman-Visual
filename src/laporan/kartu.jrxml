@@ -152,7 +152,7 @@ where id_member = $P{id}]]>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font size="12" isBold="true"/>
 				</textElement>
-				<text><![CDATA[ID ANGGOTA]]></text>
+				<text><![CDATA[ID ANGGOtA]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="270" y="19" width="23" height="20" uuid="2274d7c0-eccb-4351-932f-e7039fb93b2d"/>
@@ -210,7 +210,7 @@ where id_member = $P{id}]]>
 				</graphicElement>
 			</rectangle>
 			<componentElement>
-				<reportElement x="22" y="176" width="130" height="50" uuid="0c688408-d6d1-4cee-9c38-ac979d12a1bf"/>
+				<reportElement x="19" y="176" width="130" height="50" uuid="0c688408-d6d1-4cee-9c38-ac979d12a1bf"/>
 				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="false" checksumRequired="false" barHeight="80">
 					<jr:codeExpression><![CDATA[$F{member_id_member}]]></jr:codeExpression>
 				</jr:barbecue>

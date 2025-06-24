@@ -16,6 +16,7 @@ public class statistik extends javax.swing.JFrame {
     /**
      * Creates new form statistik
      */
+    
     public statistik() {
         initComponents();
          panelPieChart.setPreferredSize(new java.awt.Dimension(600, 300));

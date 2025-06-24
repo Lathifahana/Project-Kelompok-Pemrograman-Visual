@@ -14,6 +14,7 @@ public class laporan extends javax.swing.JFrame {
     /**
      * Creates new form laporan
      */
+    
     public laporan() {
         initComponents();
     }
