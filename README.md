@@ -12,7 +12,7 @@ Nama Anggota:
 6. 202243501597 - Lathifah Hana Nabilah
 7. 202243501604 - Mela Marsela
 
-## Fitur Login
+## LOGIN
 
 ## LOGIN ADMIN
 ![alt text](https://github.com/Lathifahana/Project-Kelompok-Pemrograman-Visual/blob/1a59ab1ed884239985ea767baeeee843b0fc7b29/img/LOGIN%20ADMIN.png?raw=true)
@@ -20,7 +20,7 @@ Nama Anggota:
 ## LOGIN STAFF
 ![alt text](https://github.com/Lathifahana/Project-Kelompok-Pemrograman-Visual/blob/1a59ab1ed884239985ea767baeeee843b0fc7b29/img/LOGIN%20STAFF.png?raw=true)
 
-## Tampilan Menu Utama
+## MENU MASTER
 
 ## MENU DASHBOARD ADMIN
 ![alt text](https://github.com/Lathifahana/Project-Kelompok-Pemrograman-Visual/blob/1a59ab1ed884239985ea767baeeee843b0fc7b29/img/MENU%20DASHBOARD%20ADMIN.png?raw=true)
@@ -31,7 +31,7 @@ Nama Anggota:
 ## MENU TRANSAKSI
 ![alt text](https://github.com/Lathifahana/Project-Kelompok-Pemrograman-Visual/blob/1a59ab1ed884239985ea767baeeee843b0fc7b29/img/MENU%20TRANSAKSI%20STAFF.png?raw=true)
 
-## Fitur IREPORT/LAPORAN
+## IREPORT/LAPORAN
 
 ## LAPORAN DATA BUKU
 ![alt text](https://github.com/Lathifahana/Project-Kelompok-Pemrograman-Visual/blob/1a59ab1ed884239985ea767baeeee843b0fc7b29/img/IREPORT%20BUKU%20ADMIN.png?raw=true)
